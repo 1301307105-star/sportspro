@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Prophet - Leaderboard</title>
+    <link rel="stylesheet" href="leaderboard-style.css">
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">⚡ Sports Prophet</h1>
+            <nav class="nav">
+                <a href="#index.html" class="nav-link">Predictions</a>
+                <a href="#leaderboard" class="nav-link active">Leaderboard</a>
+                <a href="#badges" class="nav-link">Badges</a>
+                <a href="#profile" class="nav-link">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Leaderboard Header -->
+            <section class="leaderboard-header">
+                <h1 class="page-title">🏆 Global Leaderboard</h1>
+                <p class="subtitle">Top Sports Prediction Champions</p>
+                
+                <!-- Filter Tabs -->
+                <div class="filter-tabs">
+                    <button class="filter-tab active">All Time</button>
+                    <button class="filter-tab">This Month</button>
+                    <button class="filter-tab">This Week</button>
+                    <button class="filter-tab">Today</button>
+                </div>
+            </section>
+
+            <!-- Top 3 Podium -->
+            <section class="podium-section">
+                <div class="podium">
+                    <!-- 2nd Place -->
+                    <div class="podium-player second">
+                        <div class="podium-rank">2</div>
+                        <div class="player-avatar">🥈</div>
+                        <div class="player-name">PredictionKing</div>
+                        <div class="player-points">2,634 pts</div>
+                        <div class="player-stats">143W • 89% ACC</div>
+                    </div>
+                    
+                    <!-- 1st Place -->
+                    <div class="podium-player first">
+                        <div class="podium-rank">1</div>
+                        <div class="player-avatar">👑</div>
+                        <div class="player-name">SportsMaster99</div>
+                        <div class="player-points">2,847 pts</div>
+                        <div class="player-stats">156W • 92% ACC</div>
+                        <div class="crown-effect">✨</div>
+                    </div>
+                    
+                    <!-- 3rd Place -->
+                    <div class="podium-player third">
+                        <div class="podium-rank">3</div>
+                        <div class="player-avatar">🥉</div>
+                        <div class="player-name">GameGuru2024</div>
+                        <div class="player-points">2,401 pts</div>
+                        <div class="player-stats">128W • 91% ACC</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Full Leaderboard -->
+            <section class="full-leaderboard">
+                <h2 class="section-title">📊 Complete Rankings</h2>
+                
+                <div class="leaderboard-table">
+                    <div class="table-header">
+                        <div class="col-rank">Rank</div>
+                        <div class="col-player">Player</div>
+                        <div class="col-wins">Wins</div>
+                        <div class="col-accuracy">Accuracy</div>
+                        <div class="col-streak">Streak</div>
+                        <div class="col-points">Points</div>
+                    </div>
+                    
+                    <div class="leaderboard-item rank-1">
+                        <div class="col-rank">
+                            <span class="rank-number">1</span>
+                            <span class="rank-badge">👑</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">SportsMaster99</div>
+                                <div class="player-level">Legend • Level 47</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">156</div>
+                        <div class="col-accuracy">92%</div>
+                        <div class="col-streak">🔥 23</div>
+                        <div class="col-points">2,847</div>
+                    </div>
+
+                    <div class="leaderboard-item rank-2">
+                        <div class="col-rank">
+                            <span class="rank-number">2</span>
+                            <span class="rank-badge">🥈</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">PredictionKing</div>
+                                <div class="player-level">Master • Level 42</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">143</div>
+                        <div class="col-accuracy">89%</div>
+                        <div class="col-streak">🔥 18</div>
+                        <div class="col-points">2,634</div>
+                    </div>
+
+                    <div class="leaderboard-item rank-3">
+                        <div class="col-rank">
+                            <span class="rank-number">3</span>
+                            <span class="rank-badge">🥉</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">GameGuru2024</div>
+                                <div class="player-level">Master • Level 39</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">128</div>
+                        <div class="col-accuracy">91%</div>
+                        <div class="col-streak">🔥 15</div>
+                        <div class="col-points">2,401</div>
+                    </div>
+
+                    <div class="leaderboard-item">
+                        <div class="col-rank">
+                            <span class="rank-number">4</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">ScorePredictor</div>
+                                <div class="player-level">Expert • Level 35</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">119</div>
+                        <div class="col-accuracy">88%</div>
+                        <div class="col-streak">🔥 12</div>
+                        <div class="col-points">2,156</div>
+                    </div>
+
+                    <div class="leaderboard-item">
+                        <div class="col-rank">
+                            <span class="rank-number">5</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">ChampionCaller</div>
+                                <div class="player-level">Expert • Level 33</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">112</div>
+                        <div class="col-accuracy">85%</div>
+                        <div class="col-streak">🔥 8</div>
+                        <div class="col-points">1,923</div>
+                    </div>
+
+                    <div class="leaderboard-item">
+                        <div class="col-rank">
+                            <span class="rank-number">6</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">VictoryVision</div>
+                                <div class="player-level">Expert • Level 31</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">108</div>
+                        <div class="col-accuracy">87%</div>
+                        <div class="col-streak">🔥 6</div>
+                        <div class="col-points">1,847</div>
+                    </div>
+
+                    <div class="leaderboard-item">
+                        <div class="col-rank">
+                            <span class="rank-number">7</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">WinWizard</div>
+                                <div class="player-level">Advanced • Level 28</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">95</div>
+                        <div class="col-accuracy">83%</div>
+                        <div class="col-streak">4</div>
+                        <div class="col-points">1,672</div>
+                    </div>
+
+                    <div class="leaderboard-item">
+                        <div class="col-rank">
+                            <span class="rank-number">8</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">BetMaster</div>
+                                <div class="player-level">Advanced • Level 26</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">91</div>
+                        <div class="col-accuracy">86%</div>
+                        <div class="col-streak">7</div>
+                        <div class="col-points">1,534</div>
+                    </div>
+
+                    <div class="leaderboard-item">
+                        <div class="col-rank">
+                            <span class="rank-number">9</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">StatsSavant</div>
+                                <div class="player-level">Advanced • Level 24</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">87</div>
+                        <div class="col-accuracy">84%</div>
+                        <div class="col-streak">5</div>
+                        <div class="col-points">1,398</div>
+                    </div>
+
+                    <div class="leaderboard-item">
+                        <div class="col-rank">
+                            <span class="rank-number">10</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">ScoreSeeker</div>
+                                <div class="player-level">Advanced • Level 22</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">82</div>
+                        <div class="col-accuracy">81%</div>
+                        <div class="col-streak">3</div>
+                        <div class="col-points">1,267</div>
+                    </div>
+
+                    <!-- Current User -->
+                    <div class="leaderboard-item current-user">
+                        <div class="col-rank">
+                            <span class="rank-number">12</span>
+                            <span class="you-badge">YOU</span>
+                        </div>
+                        <div class="col-player">
+                            <div class="player-info">
+                                <div class="player-name">YourUsername</div>
+                                <div class="player-level">Intermediate • Level 18</div>
+                            </div>
+                        </div>
+                        <div class="col-wins">89</div>
+                        <div class="col-accuracy">87%</div>
+                        <div class="col-streak">🔥 11</div>
+                        <div class="col-points">1,247</div>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-section">
+                    <button class="load-more-btn">Load More Players</button>
+                    <p class="total-players">Showing top 12 of 15,847 players</p>
+                </div>
+            </section>
+
+            <!-- Leaderboard Stats -->
+            <section class="leaderboard-stats">
+                <h2 class="section-title">📈 Leaderboard Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number">15,847</div>
+                        <div class="stat-label">Total Players</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-number">73.2%</div>
+                        <div class="stat-label">Average Accuracy</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">🔥</div>
+                        <div class="stat-number">8.4</div>
+                        <div class="stat-label">Average Streak</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">⚡</div>
+                        <div class="stat-number">847</div>
+                        <div class="stat-label">Average Points</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
