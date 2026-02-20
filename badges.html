@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Prophet - Badge Collection</title>
+    <link rel="stylesheet" href="badges-style.css">
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">⚡ Sports Prophet</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Predictions</a>
+                <a href="leaderboard.html" class="nav-link">Leaderboard</a>
+                <a href="badges.html" class="nav-link active">Badges</a>
+                <a href="profile.html" class="nav-link">Profile</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Badges Header -->
+            <section class="badges-header">
+                <h1 class="page-title">🎖️ Badge Collection</h1>
+                <p class="subtitle">Track your achievements and unlock new rewards</p>
+                
+                <!-- Progress Overview -->
+                <div class="progress-overview">
+                    <div class="overview-stat">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Badges Earned</div>
+                    </div>
+                    <div class="overview-stat">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">In Progress</div>
+                    </div>
+                    <div class="overview-stat">
+                        <div class="stat-number">25</div>
+                        <div class="stat-label">Total Available</div>
+                    </div>
+                    <div class="overview-stat">
+                        <div class="stat-number">48%</div>
+                        <div class="stat-label">Collection Complete</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Filter Categories -->
+            <section class="filter-section">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Badges</button>
+                    <button class="filter-tab" data-filter="earned">Earned (12)</button>
+                    <button class="filter-tab" data-filter="progress">In Progress (8)</button>
+                    <button class="filter-tab" data-filter="locked">Locked (5)</button>
+                </div>
+                
+                <div class="category-filters">
+                    <button class="category-btn active" data-category="all">All Categories</button>
+                    <button class="category-btn" data-category="accuracy">🎯 Accuracy</button>
+                    <button class="category-btn" data-category="streaks">🔥 Streaks</button>
+                    <button class="category-btn" data-category="sports">🏆 Sports</button>
+                    <button class="category-btn" data-category="special">⭐ Special</button>
+                    <button class="category-btn" data-category="social">👥 Social</button>
+                </div>
+            </section>
+
+            <!-- Recently Earned -->
+            <section class="recent-badges">
+                <h2 class="section-title">🆕 Recently Earned</h2>
+                <div class="recent-carousel">
+                    <div class="recent-badge legendary">
+                        <div class="badge-glow"></div>
+                        <div class="badge-icon">🔥</div>
+                        <div class="badge-info">
+                            <div class="badge-name">Hot Streak Master</div>
+                            <div class="badge-rarity">Legendary</div>
+                            <div class="earned-date">2 days ago</div>
+                        </div>
+                    </div>
+                    <div class="recent-badge epic">
+                        <div class="badge-glow"></div>
+                        <div class="badge-icon">🎯</div>
+                        <div class="badge-info">
+                            <div class="badge-name">Sharp Shooter</div>
+                            <div class="badge-rarity">Epic</div>
+                            <div class="earned-date">1 week ago</div>
+                        </div>
+                    </div>
+                    <div class="recent-badge rare">
+                        <div class="badge-glow"></div>
+                        <div class="badge-icon">⚡</div>
+                        <div class="badge-info">
+                            <div class="badge-name">Quick Draw</div>
+                            <div class="badge-rarity">Rare</div>
+                            <div class="earned-date">2 weeks ago</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Close to Earning -->
+            <section class="close-to-earning">
+                <h2 class="section-title">🎯 Almost There!</h2>
+                <div class="progress-badges">
+                    <div class="progress-badge">
+                        <div class="badge-icon">👑</div>
+                        <div class="badge-details">
+                            <div class="badge-name">Champion</div>
+                            <div class="badge-desc">Reach #1 global rank</div>
+                            <div class="badge-rarity mythic">Mythic</div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress-text">Rank #12 → #1</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%;"></div>
+                            </div>
+                            <div class="progress-percent">75% Complete</div>
+                        </div>
+                    </div>
+
+                    <div class="progress-badge">
+                        <div class="badge-icon">💎</div>
+                        <div class="badge-details">
+                            <div class="badge-name">Diamond Mind</div>
+                            <div class="badge-desc">1000 correct predictions</div>
+                            <div class="badge-rarity legendary">Legendary</div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress-text">453 / 1000</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 45%;"></div>
+                            </div>
+                            <div class="progress-percent">45% Complete</div>
+                        </div>
+                    </div>
+
+                    <div class="progress-badge">
+                        <div class="badge-icon">🌟</div>
+                        <div class="badge-details">
+                            <div class="badge-name">Perfect Month</div>
+                            <div class="badge-desc">100% accuracy for 30 days</div>
+                            <div class="badge-rarity legendary">Legendary</div>
+                        </div>
+                        <div class="progress-info">
+                            <div class="progress-text">11 / 30 days</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 37%;"></div>
+                            </div>
+                            <div class="progress-percent">37% Complete</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- All Badges Collection -->
+            <section class="badges-collection">
+                <h2 class="section-title">🏆 Complete Collection</h2>
+                
+                <!-- Accuracy Badges -->
+                <div class="badge-category">
+                    <h3 class="category-title">🎯 Accuracy Masters</h3>
+                    <div class="badges-grid">
+                        <div class="badge-card earned epic">
+                            <div class="badge-icon">🎯</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Sharp Shooter</div>
+                                <div class="badge-desc">Achieve 90%+ accuracy</div>
+                                <div class="badge-rarity">Epic</div>
+                                <div class="badge-reward">+100 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card earned rare">
+                            <div class="badge-icon">🏹</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Marksman</div>
+                                <div class="badge-desc">Achieve 80%+ accuracy</div>
+                                <div class="badge-rarity">Rare</div>
+                                <div class="badge-reward">+50 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card earned common">
+                            <div class="badge-icon">🎪</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Good Eye</div>
+                                <div class="badge-desc">Achieve 70%+ accuracy</div>
+                                <div class="badge-rarity">Common</div>
+                                <div class="badge-reward">+25 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card progress legendary">
+                            <div class="badge-icon">🎯</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Sniper Elite</div>
+                                <div class="badge-desc">Achieve 95%+ accuracy</div>
+                                <div class="badge-rarity">Legendary</div>
+                                <div class="badge-reward">+200 Points</div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 87%;"></div>
+                            </div>
+                            <div class="progress-text">87% → 95%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Streak Badges -->
+                <div class="badge-category">
+                    <h3 class="category-title">🔥 Streak Champions</h3>
+                    <div class="badges-grid">
+                        <div class="badge-card earned legendary">
+                            <div class="badge-icon">🔥</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Hot Streak Master</div>
+                                <div class="badge-desc">20+ win streak</div>
+                                <div class="badge-rarity">Legendary</div>
+                                <div class="badge-reward">+150 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card earned epic">
+                            <div class="badge-icon">🌪️</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Tornado</div>
+                                <div class="badge-desc">15+ win streak</div>
+                                <div class="badge-rarity">Epic</div>
+                                <div class="badge-reward">+100 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card earned rare">
+                            <div class="badge-icon">⚡</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Lightning</div>
+                                <div class="badge-desc">10+ win streak</div>
+                                <div class="badge-rarity">Rare</div>
+                                <div class="badge-reward">+75 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card progress mythic">
+                            <div class="badge-icon">🌋</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Inferno</div>
+                                <div class="badge-desc">50+ win streak</div>
+                                <div class="badge-rarity">Mythic</div>
+                                <div class="badge-reward">+500 Points</div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 46%;"></div>
+                            </div>
+                            <div class="progress-text">23 / 50 wins</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sports Specific Badges -->
+                <div class="badge-category">
+                    <h3 class="category-title">🏆 Sports Expert</h3>
+                    <div class="badges-grid">
+                        <div class="badge-card earned rare">
+                            <div class="badge-icon">🏈</div>
+                            <div class="badge-info">
+                                <div class="badge-name">NFL Prophet</div>
+                                <div class="badge-desc">100 correct NFL predictions</div>
+                                <div class="badge-rarity">Rare</div>
+                                <div class="badge-reward">+75 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card earned rare">
+                            <div class="badge-icon">🏀</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Court Vision</div>
+                                <div class="badge-desc">100 correct NBA predictions</div>
+                                <div class="badge-rarity">Rare</div>
+                                <div class="badge-reward">+75 Points</div>
+                            </div>
+                            <div class="earned-stamp">✓ EARNED</div>
+                        </div>
+
+                        <div class="badge-card progress rare">
+                            <div class="badge-icon">⚽</div>
+                            <div class="badge-info">
+                                <div class="badge-name">Soccer Sage</div>
+                                <div class="badge-desc">100 correct Soccer predictions</div>
+                                <div class="badge-rarity">Rare</div>
+                                <div class="badge-reward">+75 Points</div>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 67%;"></div>
+                            </div>
+                            <div class="progress-text">67 / 100</div>
+                        </div>
+
+                        <div class="badge-card locked epic">
+                            <div class="badge-icon">🏆</div>
+                            <div class="badge-info">
+                                <div class="badge-name">All-Sport Master</div>
+                                <div class="badge-desc">Expert in 5+ sports</div>
+                                <div class="badge-rarity">Epic</div>
+                                <div class="badge-reward">+200 Points</div>
+                            </div>
+                            <div class="locked-overlay">🔒</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Achievement Badges -->
+                <div class="badge-category">
+                    <h3 class="category-title">⭐ Special Achievements</h3>
+                    <div class="badges-grid">
+                        <div class="badge-card earned rare">
+                            <div class="badge-icon">⚡</div>
+                            <div class="badge-info">
+                                <div class="badge-name
